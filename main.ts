@@ -14,8 +14,8 @@ basic.forever(function () {
         if (distance <= 100) {
             if (distance <= 30) {
                 Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Back, 49)
-            } else if (distance >= 50) {
-                Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 78)
+            } else if (distance >= 66) {
+                Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 47)
             }
         } else {
             tries += 1
